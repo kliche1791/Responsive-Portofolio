@@ -106,3 +106,29 @@ footer{
     position: fixed;
     bottom: 0px;
 }
+
+@media screen and (max-width: 980px) {
+
+    .content, header{
+        width: 980px;     
+    }
+}
+  
+  @media screen and (max-width: 768px) {
+
+    .content, header{
+        width: 768px;     
+    }
+  }
+  @media screen and (max-width: 640px) {
+    header {
+      position: static;
+    }
+
+    .content, header{
+        width: 640px;     
+    }
+  
+  }
+  
+  

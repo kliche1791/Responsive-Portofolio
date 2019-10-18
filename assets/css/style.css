@@ -17,6 +17,7 @@ header {
 
 
 
+
 .myname{
     width: 280px;
     background-color: #4aaaa5; 
@@ -45,7 +46,7 @@ a {
 }
 
 .content{
-    font-family: Georgia, Times, 'Times New Roman', serif;;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     width: 960px;
     margin: 0px auto;
     background-color: #ffffff;
@@ -91,3 +92,27 @@ footer{
 }
 
 
+@media screen and (max-width: 980px) {
+
+    .content, header{
+        width: 980px;     
+    }
+}
+  
+  @media screen and (max-width: 768px) {
+
+    .content, header{
+        width: 768px;     
+    }
+  }
+  @media screen and (max-width: 640px) {
+    header {
+      position: static;
+    }
+
+    .content, header{
+        width: 640px;     
+    }
+  
+  }
+  
